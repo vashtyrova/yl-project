@@ -1,0 +1,7 @@
+import random
+import json
+import requests
+import vk_api
+
+from vk_api.longpoll import VkLongPoll, VkEventType
+from vk_api.bot_longpoll import VkBotLongPoll
